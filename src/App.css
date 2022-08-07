@@ -22,6 +22,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 html {
@@ -130,7 +131,8 @@ span.navbar-text {
     align-items: center;
     justify-content: center;
     line-height: 1;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);    
+    color: black;
 }
 .social-icon a::before {
     content: "";
@@ -144,6 +146,8 @@ span.navbar-text {
 }
 .social-icon a:hover::before {
     transform: scale(1);
+    border: 2px solid #09BEAD;
+    transition: 0.5s ease-in-out;
 }
 .social-icon a img {
 	width: 40%;
@@ -179,7 +183,7 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: #121212;
+  color: #09BEAD;
 }
 .navbar-text button:hover::before {
 	content: "";
@@ -312,7 +316,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: #151515;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+ 
   margin-top: -60px;
 }
 .skill h2 {
@@ -347,7 +351,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: 151515;
 }
 .project h2 {
 	font-size: 45px;
@@ -552,6 +556,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
+  
+  padding: 0 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
@@ -625,24 +631,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   .experience_content{
     padding: 1rem;
+    
+    margin-left: 10px;
   }
 }
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 600px) {
   .experience_container {
     gap: 1rem;
   }
   .experience_container > div{
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem; 
   }
-}
-@media screen and (max-width: 375px) {
-  .experience_container {
-    margin-left: auto;
-  }
-  .experience_container > div{
-    width: 100%;
-    padding: 1rem 1em;
+  .experience_frontend{
+    padding: 1rem;   
+    align-items: center;
+    justify-content: center;    
+    margin-right: 100px;
+    
   }
 }
 

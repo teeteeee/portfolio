@@ -29,10 +29,10 @@ export const Projectss = () => {
     {
       linksite: "https://www.payhelpa.com/",
       linkgit: "https://github.com/teeteeee/PayHelpa",
-      title: "View Demo",
+      title: "Admin Panel for PayHelpa",
       demo: "View Demo",
       description: "View Code",
-      imgUrl: projImg3,
+      imgUrl: projImg1,
     },
     
     

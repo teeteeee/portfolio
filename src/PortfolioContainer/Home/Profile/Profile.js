@@ -41,10 +41,12 @@ export default function profile() {
                         </span>
                     </div>
                     <div className='profile-options'>
+                    <a href='#connect'>
                         <button className='btn primary-btn'>
                             {""}
                             Hire Me{""}
-                        </button>                    
+                        </button> 
+                        </a>                       
                         <a href='Titi.pdf' download='Titilope Titi.pdf'>
                             <button className='btn highlighted-btn'>Get Resume</button>
                         </a>
@@ -52,8 +54,7 @@ export default function profile() {
                     </div>
                     <div className='profile-picture'>
                         <div className='profile-picture-background'></div>
-                    </div>
-                   
+                    </div>                   
                 
             </div>
         </div>

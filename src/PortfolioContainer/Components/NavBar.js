@@ -5,7 +5,7 @@ import navIcon1 from '../../assets/img/nav-icon1.svg';
 import navIcon2 from '../../assets/img/nav-icon2.svg';
 import ionwhatsapp from '../../assets/img/ionwhatsapp.svg';
 import { HashLink } from 'react-router-hash-link';
-import { BsLinkedin, BsGithub, BsWhatsapp } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsFillEnvelopeFill } from "react-icons/bs";
 
 import {
     BrowserRouter as Router
@@ -50,7 +50,7 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/titilope-adesola-2bb854220/" target="_blank"><BsLinkedin/></a>
-                <a href="https://wa.me/905338218138" target="_blank"><BsWhatsapp/> </a>
+                <a href="mailto:titi.adesola@gmail.com" target="_blank"><BsFillEnvelopeFill/> </a>                
                 <a href="https://github.com/teeteeee/"  target="_blank"><BsGithub /></a>
               </div>
               <HashLink to='#connect'>
